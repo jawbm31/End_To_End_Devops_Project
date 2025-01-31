@@ -8,6 +8,6 @@ WORKDIR /opt/app
 
 COPY ${artifact} app.jar
 
-PORT 8080
+
 
 ENTRYPOINT ["java","-jar","app.jar"]
