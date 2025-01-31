@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-         image: jawdev/jenkins_ci_cd:replaceImageTag
+         image: jawdev/jenkins_ci_cd:25
       - containerPort: 8080
